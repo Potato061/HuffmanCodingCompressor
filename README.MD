@@ -31,7 +31,7 @@ This project implements lossless data compression using Huffman coding. It can c
 2. Compile the code:
    ```bash
    g++ -fdiagnostics-color=always -g huffman.cpp -o huffman.exe
-   Then write "./huffman.exe" to run the program
+3.Then write "./huffman.exe" to run the program
 
 ### Project Structure:
     huffman-compressor/

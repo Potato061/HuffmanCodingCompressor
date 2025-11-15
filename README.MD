@@ -1,6 +1,6 @@
 # Huffman File Compressor
 
-A C++ implementation of the Huffman coding algorithm for text compression and decompression.
+A C++ implementation of Huffman coding for text compression and decompression with multi-line input support.
 
 ## 📋 Description
 This project implements lossless data compression using Huffman coding. It can compress text input and decompress it back to the original form, demonstrating fundamental compression algorithms.

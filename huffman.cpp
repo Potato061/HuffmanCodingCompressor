@@ -139,7 +139,7 @@ void compressFile(const std::string& inputFileName, const std::string& outputFil
     std::cout << "Codes saved to: " << codeFileName << std::endl;
 }
 
-// Add this function to your code
+
 void decompressFile(const std::string& compressedFile, const std::string& outputFile) {
     // 1. Read the Huffman codes from the .codes file
     std::ifstream codeFile(compressedFile + ".codes");

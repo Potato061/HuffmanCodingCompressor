@@ -2,17 +2,17 @@
 
 A C++ implementation of Huffman coding for text compression and decompression with multi-line input support.
 
-## 📋 Description
+## Description
 This project implements lossless data compression using Huffman coding. It can compress text input and decompress it back to the original form, demonstrating fundamental compression algorithms.
 
-## ✨ Features
+## Features
 - **Text Compression**: Compresses user-input text using Huffman coding
 - **Multi-line Input**: Support for paragraphs and multi-line text
 - **Compression Analytics**: Shows compression ratio and space saved
 - **Lossless Decompression**: Perfect reconstruction of original text
 - **Binary File Output**: Efficient compressed binary format
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Compiler**: GCC (MinGW) on Windows
@@ -33,10 +33,4 @@ This project implements lossless data compression using Huffman coding. It can c
    g++ -fdiagnostics-color=always -g huffman.cpp -o huffman.exe
 3.Then write "./huffman.exe" to run the program
 
-### Project Structure:
-    huffman-compressor/
-    ├── .vscode/
-    │ └── tasks.json # VS Code build configuration
-    ├── huffman.cpp # Main source code
-    ├── README.md # This file
-    └── (Generated files during execution)
+
